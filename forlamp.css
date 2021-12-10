@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(39, 42, 54);
+}
+
+.lamp {
+    display:flex;
+    justify-content: center;
+}
+
+img {
+    height: 300px;
+    width: 150px;
+}
+
+.light {
+    position: relative;
+    display: block;
+}
+
+button {
+    position: absolute;
+    right: 300px;
+    width: 180px;
+    border-radius: 20px;
+    height: 70px;
+    color: rgb(252, 252, 90);
+    border:3px solid rgb(252, 252, 90);
+    font-weight: 700;
+    transition: transform 0.1s;
+    transform: scale(1.1);
+}
+
+button:hover{
+    cursor:grab;
+}
+
+
+
+#l {
+    position: absolute;
+    width: 550px;
+    height: 320;
+    left: 31.6%;
+    visibility:hidden;
+}
